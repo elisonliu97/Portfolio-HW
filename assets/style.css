@@ -1,9 +1,3 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 /* Background color for main page */
 body {
     background-color: lightgrey;
@@ -57,11 +51,6 @@ section h2 {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-/* Resets list settings for navigation bar */
-.main-header nav ul {
-    list-style-type: none;
 }
 
 /* Navigation Bar list settings */
