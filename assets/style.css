@@ -133,3 +133,13 @@ section h2 {
     display: inline-block;
     margin-left: 20%;
 }
+
+/* Screen size change */
+@media screen and (max-width: 768px) {
+    .main-header{
+        background-color: maroon;
+    }
+    .background{
+        background-image: url("../assets/images/background2.jpg")
+    }
+}
