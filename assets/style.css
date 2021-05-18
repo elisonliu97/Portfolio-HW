@@ -71,6 +71,10 @@ section h2 {
     width: 69%;
 }
 
+.infosection p{
+    vertical-align: top;
+}
+
 .main-card{
     position:relative;
     width: 100%;
@@ -102,5 +106,5 @@ section h2 {
 
 .infosection ul li {
     display: inline-block;
-    margin-left: 10%;
+    margin-left: 20%;
 }
