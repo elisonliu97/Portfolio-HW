@@ -4,67 +4,26 @@
     margin: 0;
 }
 
+/* Background color for main page */
 body {
     background-color: lightgrey;
 }
 
-.main-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: darkblue;
-    color: #ffffff;
-}
-
-.main-header h1 {
-    display: inline-block;
-    font-size: 36px;
-}
-
-.main-header nav {
-    display:flex;
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.main-header nav ul {
-    list-style-type: none;
-}
-
-.main-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-.main-header nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.background {
-    height:500px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../assets/images/tree-736885_1280.jpg");
-    background-size: cover;
-    background-position: center;
-
-}
-
+/* Settings for content boxes */
 main {
     display: flex;
     flex-wrap: wrap;
     margin-top: 2%;
-  }
-  
+}
+
+/* Section Settings to fill up whole page */
 section {
     width: 100%;
     display: inline-block;
     margin-top: 20px;
 }
 
+/* Heading for each section on left side with solid black right border going down the whole section */
 section h2 {
     position:relative;
     height: 100%;
@@ -76,32 +35,90 @@ section h2 {
     vertical-align: top;
 }
 
+/* Header settings */
+.main-header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkblue;
+    color: #ffffff;
+}
+
+/* Title settings */
+.main-header h1 {
+    display: inline-block;
+    font-size: 36px;
+}
+
+/* Navigation bar settings */
+.main-header nav {
+    display:flex;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Resets list settings for navigation bar */
+.main-header nav ul {
+    list-style-type: none;
+}
+
+/* Navigation Bar list settings */
+.main-header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* removes hyperlink effects for navigation bar */
+.main-header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Background image settings */
+.background {
+    height:500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/tree-736885_1280.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* Content section settings */
 .infosection {
     display: inline-block;
     width: 69%;
+    margin-left: 5%;
 }
 
-
+/* Main image card section settings */
 .main-card{
     position:relative;
     width: 100%;
     display: inline-block;
 }
 
+/* Image settings within section */
 .main-card img {
     width: 90%;
 }
 
+/* Image card section formatting */
 .card{
     position:relative;
     width: 45%;
     display:inline-block;
 }
 
+/* image card settings within section */
 .card img {
     width: 90%;
 }
 
+/* title card on images */
 .card-title {
     position:absolute;
     bottom: 1%;
@@ -111,6 +128,7 @@ section h2 {
     color:black;
 }
 
+/* contact me section */
 .infosection ul li {
     display: inline-block;
     margin-left: 20%;
