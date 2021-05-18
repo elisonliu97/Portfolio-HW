@@ -45,7 +45,6 @@ body {
 
 main {
     display: flex;
-    /* Forces elements to the next line if they don't fit */
     flex-wrap: wrap;
     margin-top: 2%;
   }
@@ -69,16 +68,23 @@ section h2 {
     width: 69%;
 }
 
-.main-card {
+.main-card{
     width: 100%;
     display: inline-block;
 }
 
-.card {
+.main-card img {
+    width: 90%;
+}
+
+.card{
     width: 45%;
     display:inline-block;
 }
 
+.card img {
+    width: 90%;
+}
 .infosection ul li {
     display: inline-block;
     margin-left: 10%;
